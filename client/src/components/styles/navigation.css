@@ -1,0 +1,36 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: #141418de;
+    height: 60px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  
+  .nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar li {
+    margin-right: 10px;
+  }
+  
+  .nav-bar li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav-bar a:hover {
+    background-color: #ffffff;
+    color: #474747;
+  }
